@@ -24,20 +24,20 @@
       // window.serverurl="https://hippo-funny-formerly.ngrok-free.app/"
       window.serverurl="wss://hippo-funny-formerly.ngrok-free.app/"
 
-      window.assetpath="./assets";
-      // window.assetpath="./project/dist/assets";
+      // window.assetpath="./assets";
+      window.assetpath="./project/dist/assets";
 
 
       // window.serverurl="http://DESKTOP-UQ3NLLF:8765/";
       // window.serverurl="http://DESKTOP-EB2LKBR:8765"
-      (function() {
-      // Check if we need to redirect
-      const redirect = sessionStorage.getItem('redirect');
-        if (redirect) {
-          sessionStorage.removeItem('redirect');
-          window.history.replaceState(null, null, redirect);
-        }
-      })();
+      // (function() {
+      // // Check if we need to redirect
+      // const redirect = sessionStorage.getItem('redirect');
+      //   if (redirect) {
+      //     sessionStorage.removeItem('redirect');
+      //     window.history.replaceState(null, null, redirect);
+      //   }
+      // })();
     </script>
     
     <script type="module" src="./src/main.jsx"></script>
