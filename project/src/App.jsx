@@ -309,10 +309,10 @@ function App(){
     function handleVisibilityChange() {
       console.log(document.visibilityState)
 
-      // if the state is hiiden navigate to the /re-enter page
-      if (document.visibilityState === 'hidden') {
-        window.location.href = "/re-enter";
-      }
+      // // if the state is hiiden navigate to the /re-enter page
+      // if (document.visibilityState === 'hidden') {
+      //   window.location.href = "/re-enter";
+      // }
 
 
 

@@ -14,7 +14,7 @@ createRoot(document.getElementById('root')).render(
     <BrowserRouter>
       <Routes>
         <Route path="/" element={<App />} />
-        <Route path="/re-enter" element={<RedirectApp />} />
+        {/* <Route path="/re-enter" element={<RedirectApp />} /> */}
       </Routes>
     </BrowserRouter>    
   </StrictMode>,
