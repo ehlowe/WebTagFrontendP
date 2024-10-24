@@ -11,11 +11,11 @@ import './index.css'
 createRoot(document.getElementById('root')).render(
   <StrictMode>
     {/* create router */}
-    <BrowserRouter>
+    {/* <BrowserRouter>
       <Routes>
         <Route path="/" element={<App />} />
-        {/* <Route path="/re-enter" element={<RedirectApp />} /> */}
       </Routes>
-    </BrowserRouter>    
+    </BrowserRouter>     */}
+    <App />
   </StrictMode>,
 )
