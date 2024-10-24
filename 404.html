@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <title>Redirecting...</title>
+    <script>
+      // Get the current path and query string
+      const path = window.location.pathname;
+      const query = window.location.search;
+      
+      // Remove the repository name from the path (if using GitHub project pages)
+    //   const repoName = 'VisionTagLive'; // Replace with your repo name
+      const repoName = '';
+      const cleanPath = path.replace(repoName, '');
+      
+      // Store the full path in session storage
+      sessionStorage.setItem('redirect', cleanPath + query);
+      
+      // Redirect to the root
+      window.location.href = 'https://www.visiontaglive.com/';
+    </script>
+  </head>
+  <body>
+    Reconnecting to the main website...
+    <!-- make a button so that if it is not redirecting users can manually redirect -->
+    <button onclick="window.location.href = 'https://www.visiontaglive.com/'">Click here to go to https://www.visiontaglive.com/ if the page is not redirecting you automatically</button>
+  </body>
+</html>
